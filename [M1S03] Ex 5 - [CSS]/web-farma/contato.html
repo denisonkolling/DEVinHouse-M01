@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco</title>
+</head>
+
+<header>
+    <div class="nav-container">
+        <div class="nav-row">
+            <div class="nav-col">
+                <div class="header-logo">
+                    <img class="imagem-logo" src="./assets/logo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <div class="menu">
+            <ul>
+                <li><a href="./index.html"> Todos os Remédios</a></li>
+                <li><a href="./contato.html">Fale Conosco</a></li>
+                <li>Sobre Nós</li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<body>
+
+    <h1>Formulário de Contato</h1>
+    <p>Preencha os dados abaixo e envie sua mensagem de contato.</p>
+    <fieldset>
+        <legend>
+            <h5>Dados do Contato</h5>
+        </legend>
+        <form>
+            <label for="nome">Nome</label><br>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+            <br><br>
+
+            <label for="telefone">Telefone</label><br>
+            <input type="tel" id="telefone" name="telefone" placeholder="(99) 99999-9999" required>
+            <br><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" placeholder="Seu email" required>
+            <br><br>
+
+            <label for="assunto">Assunto:</label><br>
+            <select id="assunto" name="assunto">
+                <option value="elogio">Elogio</option>
+                <option value="duvida">Dúvida</option>
+                <option value="sugestao">Sugestão</option>
+                <option value="reclamacao">Reclamação</option>
+            </select>
+            <br><br>
+
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem..." rows="4" cols="35"></textarea>
+            <br><br>
+
+            <label> <b>Esta mensagem é sobre um orçamento?</b></label>
+            <input type="checkbox" id="orcamento" name="orcamento" value="orcamento">
+            <label for="orcamento">Sim</label>
+            <br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </fieldset>
+
+</body>
+
+</html>

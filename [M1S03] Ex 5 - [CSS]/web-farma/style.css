@@ -1,0 +1,136 @@
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.navbar {
+  list-style: none;
+  padding: 0px;
+  background-color: #f18a48;
+}
+
+.menu ul li {
+  display: inline;
+}
+
+.menu ul li a {
+  font-size: 13px;
+  font-family: Lato, sans-serif;
+  font-weight: 700;
+  color: #fff;
+  padding: 10px;
+  display: inline-block;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+
+.menu ul li a:hover {
+  background-color: #3750f0;
+}
+
+.nav-container {
+  display: flex;
+  margin: 25px
+}
+
+.items{
+  display:flex;
+  margin: 20px;
+}
+
+.item-card{
+  display: flex;
+  width: 250px;
+  height: 250px;
+  flex-direction: column;
+}
+
+.content a {
+  color: black;
+  font-size: 18px;
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  text-align: center;
+  margin: 6px;
+}
+
+
+.price {
+  color: #344bf0;
+  font-size: 15px;
+  font-family: Lato, sans-serif;
+  font-weight: bold;
+  align-items: center;
+  margin: 6px;
+  align-items: center;
+  display: flex;
+}
+
+.favorite-item{
+  margin:4px;
+  align-items: center;
+  display: flex;
+}
+
+.action{
+  align-items: center;
+  display: flex;
+  width: 55%;
+}
+
+#adicionar-button{
+  background: #344bf0;
+  border-radius: 999px;
+  box-shadow: #344bf0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 2px 18px;
+
+  border: 0;
+}
+
+#adicionar-button a{
+  color: white;
+}
+
+#adicionar-button a:hover {
+    font-size: 1rem;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+<!-- HTML !-->
+<button class="button-34" role="button">Button 34</button>
+
+/* CSS */
+.button-34 {
+  background: #5E5DF0;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
