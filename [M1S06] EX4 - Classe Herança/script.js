@@ -5,7 +5,7 @@ class Veiculo {
   }
   
   obterDetalhes(){
-    console.log(`Veícumo marca: ${this.marca} Ano: ${this.ano}`)
+    console.log(`Veículo marca: ${this.marca} Ano: ${this.ano}`)
   }
 }
 
@@ -16,7 +16,7 @@ class Carro extends Veiculo {
   }
 
     obterDetalhes(){
-    console.log(`Veícumo marca: ${this.marca} Ano: ${this.ano} Portas: ${this.portas}`)
+    console.log(`Veículo marca: ${this.marca} Ano: ${this.ano} Portas: ${this.portas}`)
   }
 
 }
